@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume website</title>
+    <link rel="stylesheet" href="type.css">
+    <script src="type.js" defer></script>
+    <!-- Font Awesome CDN (if not already included) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <aside>
+            <div class="logo">
+                <h1>About My Informations</h1>
+            </div>
+            <ul class="Links">
+                <li>
+                    <button onclick="Navigate(0)" class="activeLink">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="Navigate(1)">
+                        <i class="fa-solid fa-user"></i>
+                        <p>About Me</p>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="Navigate(2)">
+                        <i class="fa-solid fa-list"></i>
+                        <p>Education</p>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="Navigate(3)">
+                        <i class="fa-solid fa-images"></i>
+                        <p>Projects</p>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="Navigate(4)">
+                        <i class="fa-solid fa-comments"></i>
+                        <p>Contact Me</p>
+                    </button>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <!-- Home Slide -->
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Sudharsan k</span>,</h1>
+                        <h2>A <span class="proffesions">Web Developer</span></h2>
+                        <p class="heroline">Currently, I'm pursuing my undergraduate degree from National Engineering College. I'm interested in learning about new innovations and technologies.</p>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                        </div>
+                        <img src="try.png" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                        </div>
+                    </div>
+                </div>
+                <!-- About Me Slide -->
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">About Me</h1>
+                        <h3 class="sub-heading">I'm Sudharsan, <span></span> 
+                            <div class="proffesions">A Web Developer</div></h3>
+                        <p class="aboutme-deatil">I'm developing and hosting websites and web applications. I'm interested in designing also.</p>
+                        <div class="about-me-divison">
+                            <ul class="about-me-table">
+                                <li><strong><span>Country:</span></strong> India</li>
+                                <li><strong><span>Availability:</span></strong> 24/7 </li>
+                                <li><strong><span>Age:</span></strong> 18</li>
+                                <li><strong><span>Phone:</span></strong> 9363929028</li>
+                                <li><strong><span>Language Used:</span></strong> HTML, CSS and JS</li>
+                                <li><strong><span>Degree:</span></strong> Computer Science and Engineering</li>
+                                <li><strong><span>Language:</span></strong> Tamil ,English</li>
+                            </ul>
+                            <h1>Languages in Coding</h1>
+                            <ul class="skill-bar">
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:99%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:80%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:75%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>C</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:70%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>C++</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:75%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Education Slide -->
+                <div class="swiper-slide education">
+                    <h1 class="heading">Education</h1>
+                    <div class="Education">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>School</h2>
+                        <p>Nadar Hr Sec School, Kovilpatti</p>
+                    </div>
+                    <div class="Education">
+                        <div class="service-icon"></div>
+                        <h2>10th Mark Percentage</h2>
+                        <p>57.8%</p>
+                    </div>
+                    <div class="Education">
+                        <div class="service-icon"></div>
+                        <h2>12th Mark Percentage</h2>
+                        <p>82.6%</p>
+                    </div>
+                    <div class="Education">
+                        <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h2>College</h2>
+                        <p>National Engineering College, Kovilpatti</p>
+                    </div>
+                    <div class="Education">
+                        <div class="service-icon"></div>
+                        <h2>CGPA</h2>
+                        <p>6.89</p>
+                    </div>
+                    <div class="Education">
+                        <div class="service-icon"></div>
+                        <h2>Passing Year</h2>
+                        <p>2024-2028</p>
+                    </div>
+                </div>
+                <!-- Projects Slide -->
+                <div class="swiper-slide projects">
+                    <div class="projects">
+                        <h1 class="heading">Projects</h1>
+                        <div class="project">
+                            <h2>Bank Management System</h2>
+                            <p>A brief description of what this project.</p>
+
+                            <h3>Key Features of Your System:</h3>
+                            <ul>
+                                <li>Account Management: Users can create new accounts, log in, and perform transactions securely.</li>
+                                <li>Gift Card Integration: Supports gift card creation, top-up, and redemption.</li>
+                                <li>Reward Points System: Allows users to earn and redeem points based on transactions.</li>
+                                <li>Transaction History: Maintains a log of all user transactions.</li>
+                                <li>Data Persistence: Saves account and transaction data to text files for continuity.</li>
+                                <li>User Interface: Utilizes console-based UI with color-coded messages for better user experience.</li>
+                            </ul>
+                            <h2>Abstract</h2>This project implements a comprehensive Bank Management System using Object-Oriented Programming (OOP) principles in C++. The system provides core banking functionalities such as account creation, login, deposit, withdrawal, and transaction history management. It extends traditional banking by integrating a Gift Card system, allowing users to generate, top up, and redeem gift cards, as well as a Reward Points mechanism where users earn and redeem points based on their transactions.
+
+The design leverages OOP concepts including encapsulation, inheritance, polymorphism, and abstraction. The Account base class manages user credentials, balances, and transaction logging, while derived classes like GiftCard and RedeemPoints add specialized features for gift card management and reward point redemption. Additional classes such as Notifier and various operation classes (e.g., DepositOperation, WithdrawOperation) demonstrate advanced OOP techniques, including virtual functions and abstract base classes.
+
+The user interface is console-based, featuring a splash screen, main menu, and user menu, with robust input validation and user notifications. All data, including account details and transaction histories, are persisted in text files to ensure continuity and traceability. The system is designed with security, scalability, and user experience in mind, and can be further enhanced with stronger encryption, improved error handling, and database integration for larger-scale deployments.
+
+
+
+</div>
+                    </div>
+                </div>
+                <!-- Contact Me Slide -->
+                <div class="swiper-slide contact">
+                    <h1 class="heading">Contact</h1>
+                    <div class="contactinfo-group">
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Mobile No</h3>
+                            <p>9363929028</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Location</h3>
+                            <p>Kovilpatti, Tamil Nadu, India.</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>2404070@nec.edu.in</p>
+                        </div>
+                    </div>
+                    <h2>Profiles</h2>
+                     <div class="SocialLinks">
+    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/sudharsan-k-902030322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/Sudharsan-26CSE" target="_blank" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+</div>
+                    <form>
+                        <h2>Send Me A Message</h2>
+                        <div class="input">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="email">
+                        </div>
+                        <div class="input">
+                            <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                          <button type="submit" class="submit-btn">Submit</button>
+                        </div>
+                    </form>
+                    <footer>
+                        <p>Thank You for visiting my page!</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
